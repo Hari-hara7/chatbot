@@ -1,8 +1,7 @@
 # ChatBot Project
 
 Welcome to the ChatBot Project! This simple chatbot provides an interactive chat experience with random responses.
-webpage link:https://chatbot-ggb58b5wp-hari-hara7s-projects.vercel.app
-
+webpage link:https://hari-hara7.github.io/chatbot/
 ## About the ChatBot
 
 The ChatBot is a basic example of a chat application where users can input messages and receive responses from a simulated chatbot. The chatbot's responses are randomly selected from a predefined set, making each interaction unique.
