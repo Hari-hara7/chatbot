@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Simple Chatbox</title>
+    <!-- Add your icon link here, for example, a favicon -->
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    <title>Academic Pal Chatbot</title>
 </head>
 <body>
-    <div class="chatbox">
-        <h1>Designed and Developed by Hari</h1>
-        <div class="chat" id="chat"></div>
-        <input type="text" id="messageInput" placeholder="Type a message...">
-        <button onclick="sendMessage()">Send</button>
+    <div class="container">
+        <div class="header">
+            <!-- Use an emoji as an icon -->
+            <span class="icon">&#x1F4D6;</span>
+            <h1>Welcome to Academic Pal</h1>
+            <p>Explore our features:</p>
+        </div>
+        <div class="chatbox">
+            <div class="chat" id="chat"></div>
+            <input type="text" id="messageInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
+
